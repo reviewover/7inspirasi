@@ -1,0 +1,5 @@
+{
+	"name" : "Login/Signup Modal",
+	"description" : "When this plugin is active the login and signup will open up in a modal window",
+	"version" : "1.0"
+}

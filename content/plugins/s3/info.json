@@ -1,0 +1,5 @@
+{
+	"name" : "Amazon s3 Plugin",
+	"description" : "This is an Amazon s3 plugin that will allow you to store all of your media in an s3 bucket",
+	"version" : "1.0"
+}
