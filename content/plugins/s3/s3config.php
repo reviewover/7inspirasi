@@ -27,7 +27,7 @@ return array(
             'params' => array(
                 'key'    => $s3_key,
                 'secret' => $s3_secret,
-                'region' => 'us-east-1'
+                'region' => 'ap-southeast-1'
             )
         )
     )
