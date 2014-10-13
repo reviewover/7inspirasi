@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b4a7385-0c91-437c-a7a3-25fb8d785357" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/info.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.ebextensions/app.config" afterPath="$PROJECT_DIR$/.ebextensions/app.config" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="7inspirasi.iws" />
@@ -29,16 +29,25 @@
       <file leaf-file-name="app.config" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.ebextensions/app.config">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="22" selection-start="39" selection-end="39" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="128">
+            <state line="22" column="26" selection-start="475" selection-end="475" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="info.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="apc.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/apc.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="41" column="34" selection-start="2178" selection-end="2178" vertical-scroll-proportion="0.90140843" vertical-offset="0" max-vertical-offset="21552">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="info.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/info.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="10" selection-start="16" selection-end="16" vertical-scroll-proportion="0.04347826" vertical-offset="0" max-vertical-offset="368">
+            <state line="1" column="10" selection-start="16" selection-end="16" vertical-scroll-proportion="-0.64" vertical-offset="0" max-vertical-offset="112">
               <folding />
             </state>
           </provider>
@@ -69,8 +78,9 @@
         <option value="$PROJECT_DIR$/application/app/views/includes/leaderboards.blade.php" />
         <option value="$PROJECT_DIR$/application/app/views/includes/profile-mobile.blade.php" />
         <option value="$PROJECT_DIR$/application/app/views/layouts/mobile-menu.blade.php" />
-        <option value="$PROJECT_DIR$/.ebextensions/app.config" />
         <option value="$PROJECT_DIR$/info.php" />
+        <option value="$PROJECT_DIR$/.ebextensions/app.config" />
+        <option value="$PROJECT_DIR$/apc.php" />
       </list>
     </option>
   </component>
@@ -152,6 +162,11 @@
     <property name="options.searchVisible" value="true" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="FullScreen" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\!Bismillah\7inspirasi" />
+    </key>
   </component>
   <component name="RunManager" selected="AWS ElasticBeanstalk Deployment.7inspirasi">
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -524,9 +539,7 @@
     <entry file="file://$PROJECT_DIR$/application/app/views/includes/media_grid.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="202" column="101" selection-start="6994" selection-end="7000" vertical-scroll-proportion="-3.56" vertical-offset="3054" max-vertical-offset="3824">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -540,9 +553,7 @@
     <entry file="file://$PROJECT_DIR$/application/app/views/includes/media_list.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="181" selection-start="569" selection-end="572" vertical-scroll-proportion="-3.56" vertical-offset="14" max-vertical-offset="800">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -609,16 +620,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.ebextensions/app.config">
+    <entry file="file://$PROJECT_DIR$/info.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="22" selection-start="39" selection-end="39" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="128">
+        <state line="1" column="10" selection-start="16" selection-end="16" vertical-scroll-proportion="-0.64" vertical-offset="0" max-vertical-offset="112">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/info.php">
+    <entry file="file://$PROJECT_DIR$/.ebextensions/app.config">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="10" selection-start="16" selection-end="16" vertical-scroll-proportion="0.04347826" vertical-offset="0" max-vertical-offset="368">
+        <state line="22" column="26" selection-start="475" selection-end="475" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="34" selection-start="2178" selection-end="2178" vertical-scroll-proportion="0.90140843" vertical-offset="0" max-vertical-offset="21552">
           <folding />
         </state>
       </provider>
