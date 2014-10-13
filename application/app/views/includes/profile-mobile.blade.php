@@ -16,7 +16,7 @@
 			?>
 		@endif
 
-		<a href="{{ URL::to('user/' . $user->username ) }}"><img src="{{ Config::get('site.uploads_dir') }}avatars/{{ $user->avatar }}" alt="{{ $user->username }}" class="img-circle user-avatar-large"></a>
+		<a href="{{ URL::to('user/' . $user->username ) }}"><img src="{{ Config::get('site.uploads_dir') }}/avatars/{{ $user->avatar }}" alt="{{ $user->username }}" class="img-circle user-avatar-large"></a>
 		<h2>{{ $user->username }} @if($is_user_profile) <i class="fa fa-edit" data-toggle="modal" data-target="#edit-modal" style="cursor:pointer;"></i>@endif</h2>
 		<p><i class="fa fa-star" style="color:gold"></i> <a href="{{ URL::to('user/' . $user->username . '/points' ) }}"">{{ $user_points }} points</a> <i class="fa fa-question-circle points-question" style="cursor:pointer" data-toggle="modal" data-target="#aboutpoints"></i></p>
 		<p>{{ Lang::get('lang.member_since') }}: {{ date("F j, Y", strtotime($user->created_at)) }}</p>

@@ -16,7 +16,7 @@
 	      		@foreach($leaders as $user)
 
 	      			<li style="color:#f1f1f1; line-height:30px; display:block; width:100%; margin:20px auto;">
-	      				<a href="{{ URL::to('user/' . $user->username ) }}" style="display:block; float:left; width:130px; overflow:hidden;"><img src="{{ Config::get('site.uploads_dir') }}avatars/{{ $user->avatar }}" alt="{{ $user->username }}" class="img-circle user-avatar-small" style="margin-right:10px; display:block; float:left;"> {{ $user->username }} </a><div style="float:left; margin-right:150px; color:#333"><i class="fa fa-star" style="color:gold"></i> {{ $user->totalPoints() }}</div>
+	      				<a href="{{ URL::to('user/' . $user->username ) }}" style="display:block; float:left; width:130px; overflow:hidden;"><img src="{{ Config::get('site.uploads_dir') }}/avatars/{{ $user->avatar }}" alt="{{ $user->username }}" class="img-circle user-avatar-small" style="margin-right:10px; display:block; float:left;"> {{ $user->username }} </a><div style="float:left; margin-right:150px; color:#333"><i class="fa fa-star" style="color:gold"></i> {{ $user->totalPoints() }}</div>
 	      			</li>
 	      			<div style="clear:both"></div>
 

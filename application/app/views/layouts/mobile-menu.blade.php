@@ -4,7 +4,7 @@
 
       <?php $user = Auth::user(); ?>
       <?php $user_points = DB::table('points')->where('user_id', '=', $user->id)->sum('points'); ?>
-      <a href="{{ URL::to('user') . '/' . $user->username; }}" class="usr-avatar"><img src="{{ Config::get('site.uploads_dir') }}avatars/{{ $user->avatar }}" alt="{{ $user->username }}" class="img-circle user-avatar-large"></a>
+      <a href="{{ URL::to('user') . '/' . $user->username; }}" class="usr-avatar"><img src="{{ Config::get('site.uploads_dir') }}/avatars/{{ $user->avatar }}" alt="{{ $user->username }}" class="img-circle user-avatar-large"></a>
       <a href="{{ URL::to('user') . '/' . $user->username; }}" class="username"><h2>@if(strlen(Auth::user()->username) > 14){{ substr(Auth::user()->username, 0, 14) . '...' }}@else{{ Auth::user()->username }}@endif</h2></a>
       <p class="points"><i class="fa fa-star" style="color:gold"></i> {{ $user_points }} points</p>
       <div id="avatar-bg"></div>

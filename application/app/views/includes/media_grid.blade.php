@@ -131,12 +131,12 @@
 		  		@if($item->user())
 		  			<?php $user_url = URL::to('user') . '/' . $item->user()->username;
 		  				  $username = $item->user()->username;
-		  				  $user_avatar = Config::get('site.uploads_dir') . 'avatars/' . $item->user()->avatar;
+		  				  $user_avatar = Config::get('site.uploads_dir') . '/avatars/' . $item->user()->avatar;
 		  			?>
 		  		@else
 		  			<?php $user_url = '#_';
 		  				  $username = Lang::get('lang.anonymous');
-		  				  $user_avatar = Config::get('site.uploads_dir') . 'avatars/default.jpg';
+		  				  $user_avatar = Config::get('site.uploads_dir') . '/avatars/default.jpg';
 		  			?>
 		  		@endif
 

@@ -21,7 +21,7 @@
 				</li>
 				<li>
 					<label for="image" style="margin-left:24px; margin-top:10px;">{{ Lang::get('lang.update_avatar') }}</label>
-		            <img src="{{ Config::get('site.uploads_dir') }}avatars/{{ Auth::user()->avatar }}" alt="{{ $user->username }}" class="img-circle user-avatar-medium pull-left" style="width:75px">
+		            <img src="{{ Config::get('site.uploads_dir') }}/avatars/{{ Auth::user()->avatar }}" alt="{{ $user->username }}" class="img-circle user-avatar-medium pull-left" style="width:75px">
 		            {{ Form::file('file', array('name' => 'avatar', 'style' => 'line-height:15px; margin-left:100px;')) }}
 		            <div style="clear:both"></div>
 		        </li>
