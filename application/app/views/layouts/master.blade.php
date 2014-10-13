@@ -173,7 +173,7 @@
       <?php $user_points = DB::table('points')->where('user_id', '=', Auth::user()->id)->sum('points'); ?>
 
         <li class="dropdown">
-            <a href="#" class="user-menu user-menu-desktop dropdown-toggle" data-toggle="dropdown"><img src="{{ Config::get('site.uploads_dir') }}avatars/{{ Auth::user()->avatar }}" class="img-circle" /><b class="caret"></b><div id="user-info"><h4>@if(strlen(Auth::user()->username) > 8){{ substr(Auth::user()->username, 0, 8) . '...' }}@else{{ Auth::user()->username }}@endif</h4><p>{{ $user_points }} {{ Lang::get('lang.points') }}</p></div> </a>
+            <a href="#" class="user-menu user-menu-desktop dropdown-toggle" data-toggle="dropdown"><img src="{{ Config::get('site.uploads_dir') }}/avatars/{{ Auth::user()->avatar }}" class="img-circle" /><b class="caret"></b><div id="user-info"><h4>@if(strlen(Auth::user()->username) > 8){{ substr(Auth::user()->username, 0, 8) . '...' }}@else{{ Auth::user()->username }}@endif</h4><p>{{ $user_points }} {{ Lang::get('lang.points') }}</p></div> </a>
             <ul class="dropdown-menu">
               @if(Auth::user()->admin)
                 <li><a href="{{ URL::to('admin') }}" class="admin_link_desktop"><i class="fa fa-coffee"></i> {{ Lang::get('lang.admin') }}</a></li>
