@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b4a7385-0c91-437c-a7a3-25fb8d785357" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/app/config/cache.php" afterPath="$PROJECT_DIR$/application/app/config/cache.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="7inspirasi.iws" />
@@ -26,19 +25,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="app.config" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="app.config" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.ebextensions/app.config">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="26" selection-start="365" selection-end="365" vertical-scroll-proportion="0.0" vertical-offset="7" max-vertical-offset="416">
+            <state line="11" column="21" selection-start="188" selection-end="188" vertical-scroll-proportion="0.44783714" vertical-offset="0" max-vertical-offset="393">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cache.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="cache.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/app/config/cache.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="20" selection-start="520" selection-end="520" vertical-scroll-proportion="0.3478261" vertical-offset="144" max-vertical-offset="1520">
+            <state line="10" column="36" selection-start="314" selection-end="314" vertical-scroll-proportion="-6.4" vertical-offset="0" max-vertical-offset="1520">
               <folding />
             </state>
           </provider>
@@ -89,8 +88,8 @@
         <option value="$PROJECT_DIR$/application/app/views/layouts/mobile-menu.blade.php" />
         <option value="$PROJECT_DIR$/info.php" />
         <option value="$PROJECT_DIR$/apc.php" />
-        <option value="$PROJECT_DIR$/.ebextensions/app.config" />
         <option value="$PROJECT_DIR$/application/app/config/cache.php" />
+        <option value="$PROJECT_DIR$/.ebextensions/app.config" />
       </list>
     </option>
   </component>
@@ -699,16 +698,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.ebextensions/app.config">
+    <entry file="file://$PROJECT_DIR$/application/app/config/cache.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="26" selection-start="365" selection-end="365" vertical-scroll-proportion="0.0" vertical-offset="7" max-vertical-offset="416">
+        <state line="10" column="36" selection-start="314" selection-end="314" vertical-scroll-proportion="-6.4" vertical-offset="0" max-vertical-offset="1520">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/app/config/cache.php">
+    <entry file="file://$PROJECT_DIR$/.ebextensions/app.config">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="20" selection-start="520" selection-end="520" vertical-scroll-proportion="0.3478261" vertical-offset="144" max-vertical-offset="1520">
+        <state line="11" column="21" selection-start="188" selection-end="188" vertical-scroll-proportion="0.44783714" vertical-offset="0" max-vertical-offset="393">
           <folding />
         </state>
       </provider>
