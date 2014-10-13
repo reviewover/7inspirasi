@@ -26,19 +26,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="app.config" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="app.config" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.ebextensions/app.config">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="26" selection-start="475" selection-end="475" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
+            <state line="18" column="26" selection-start="365" selection-end="365" vertical-scroll-proportion="0.73282444" vertical-offset="0" max-vertical-offset="416">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="apc.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="apc.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apc.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="34" selection-start="2178" selection-end="2178" vertical-scroll-proportion="0.90140843" vertical-offset="0" max-vertical-offset="21552">
+            <state line="41" column="34" selection-start="2178" selection-end="2178" vertical-scroll-proportion="-12.8" vertical-offset="0" max-vertical-offset="21552">
               <folding />
             </state>
           </provider>
@@ -79,8 +79,8 @@
         <option value="$PROJECT_DIR$/application/app/views/includes/profile-mobile.blade.php" />
         <option value="$PROJECT_DIR$/application/app/views/layouts/mobile-menu.blade.php" />
         <option value="$PROJECT_DIR$/info.php" />
-        <option value="$PROJECT_DIR$/.ebextensions/app.config" />
         <option value="$PROJECT_DIR$/apc.php" />
+        <option value="$PROJECT_DIR$/.ebextensions/app.config" />
       </list>
     </option>
   </component>
@@ -620,6 +620,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/apc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="34" selection-start="2178" selection-end="2178" vertical-scroll-proportion="-12.8" vertical-offset="0" max-vertical-offset="21552">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/info.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="10" selection-start="16" selection-end="16" vertical-scroll-proportion="-0.64" vertical-offset="0" max-vertical-offset="112">
@@ -629,14 +636,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.ebextensions/app.config">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="26" selection-start="475" selection-end="475" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="34" selection-start="2178" selection-end="2178" vertical-scroll-proportion="0.90140843" vertical-offset="0" max-vertical-offset="21552">
+        <state line="18" column="26" selection-start="365" selection-end="365" vertical-scroll-proportion="0.73282444" vertical-offset="0" max-vertical-offset="416">
           <folding />
         </state>
       </provider>
